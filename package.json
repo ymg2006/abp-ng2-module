@@ -1,10 +1,11 @@
 {
-  "name": "abp-ng2-module",
-  "version": "0.0.0",
+  "name": "@ymg2006/abp-ng2-module",
+  "version": "12.3.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
+    "publish": "ng build --configuration production && cd dist/abp-ng2-module && npm publish --access public && cd ../..",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -20,7 +21,7 @@
       }
     ]
   },
-  "private": true,
+  "private": false,
   "packageManager": "npm@11.6.4",
   "dependencies": {
     "@angular/common": "^21.0.6",
