@@ -1,6 +1,6 @@
 {
-  "name": "abp-ng2-module",
-  "version": "13.0.0",
+  "name": "@ymg2006/abp-ng2-module",
+  "version": "14.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -29,24 +29,24 @@
     "url": "https://github.com/aspnetboilerplate/abp-ng2-module/issues"
   },
   "dependencies": {
-    "@angular/animations": "^21.2.4",
-    "@angular/common": "^21.2.4",
-    "@angular/compiler": "^21.2.4",
-    "@angular/core": "^21.2.4",
-    "@angular/forms": "^21.2.4",
-    "@angular/platform-browser": "^21.2.4",
-    "@angular/platform-browser-dynamic": "^21.2.4",
-    "@angular/router": "^21.2.4",
+    "@angular/animations": "^22.1.5",
+    "@angular/common": "^22.1.5",
+    "@angular/compiler": "^22.1.5",
+    "@angular/core": "^22.1.5",
+    "@angular/forms": "^22.1.5",
+    "@angular/platform-browser": "^22.1.5",
+    "@angular/platform-browser-dynamic": "^22.1.5",
+    "@angular/router": "^22.1.5",
     "rxjs": "~7.8.2",
     "tslib": "^2.8.1",
-    "zone.js": "~0.15.0",
+    "zone.js": "~0.16.3",
     "abp-web-resources": "6.1.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^21.2.2",
-    "@angular/cli": "^21.2.2",
-    "@angular/compiler-cli": "^21.2.4",
-    "@angular/language-service": "^21.2.4",
+    "@angular-devkit/build-angular": "^22.1.7",
+    "@angular/cli": "^22.1.7",
+    "@angular/compiler-cli": "^22.1.5",
+    "@angular/language-service": "^22.1.5",
     "@types/node": "^22.13.5",
     "@types/jasmine": "~5.1.7",
     "jasmine-core": "~5.6.0",
@@ -56,7 +56,7 @@
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "^2.1.0",
-    "ng-packagr": "^21.0.0",
-    "typescript": "~5.9.0"
+    "ng-packagr": "^22.1.1",
+    "typescript": "~6.0.3"
   }
 }

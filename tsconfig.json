@@ -1,7 +1,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
@@ -15,10 +14,12 @@
     ],
     "paths": {
       "abp-ng2-module": [
-        "dist/abp-ng2-module/abp-ng2-module",
-        "dist/abp-ng2-module"
+        "./dist/abp-ng2-module/abp-ng2-module",
+        "./dist/abp-ng2-module"
       ]
-    }
+    },
+    "strict": false,
+    "noUncheckedSideEffectImports": false
   },
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
